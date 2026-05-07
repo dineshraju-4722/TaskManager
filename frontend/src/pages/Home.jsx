@@ -28,18 +28,18 @@ export default function Home(){
         <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           <div className="bg-white bg-opacity-10 backdrop-blur p-6 rounded-xl hover:bg-opacity-20 transition">
             <div className="text-4xl mb-4">🔐</div>
-            <h3 className="text-xl font-semibold mb-2">Secure Auth</h3>
-            <p className="text-blue-100">JWT-based authentication keeps your data safe</p>
+            <h3 className="text-xl font-semibold mb-2 text-yellow-500">Secure Auth</h3>
+            <p className="text-blue-500">JWT-based authentication keeps your data safe</p>
           </div>
           <div className="bg-white bg-opacity-10 backdrop-blur p-6 rounded-xl hover:bg-opacity-20 transition">
             <div className="text-4xl mb-4">👥</div>
-            <h3 className="text-xl font-semibold mb-2">Team Collab</h3>
-            <p className="text-blue-100">Work together with your team seamlessly</p>
+            <h3 className="text-xl font-semibold mb-2 text-yellow-500">Team Collab</h3>
+            <p className="text-blue-500">Work together with your team seamlessly</p>
           </div>
           <div className="bg-white bg-opacity-10 backdrop-blur p-6 rounded-xl hover:bg-opacity-20 transition">
             <div className="text-4xl mb-4">✅</div>
-            <h3 className="text-xl font-semibold mb-2">Task Mgmt</h3>
-            <p className="text-blue-100">Organize tasks, set priorities, track progress</p>
+            <h3 className="text-xl font-semibold mb-2 text-yellow-500">Task Mgmt</h3>
+            <p className="text-blue-500">Organize tasks, set priorities, track progress</p>
           </div>
         </div>
       </div>
