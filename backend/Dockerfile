@@ -1,5 +1,5 @@
 # -------- Stage 1: Build JAR with Gradle --------
-FROM gradle:8.5-jdk21 AS build
+FROM gradle:8.14.3-jdk21 AS build
 
 WORKDIR /app
 
@@ -11,6 +11,7 @@ RUN gradle build --no-daemon -x test
 
 # -------- Stage 2: Run the JAR with OpenJDK --------
 FROM eclipse-temurin:21-jdk
+
 WORKDIR /app
 
 # Copy JAR from previous stage
